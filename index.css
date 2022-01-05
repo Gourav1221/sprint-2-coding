@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 71px;
+    background-color: black;
+}
+#nav>div{
+    margin-left: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+}
+#menu{
+   
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    grid-gap: 25px;
+}
+#menu>div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-top: 5px;
+}
+#menu>div>img{
+    height: 65%;
+    width: 100%;
+
+}
+button{
+    padding: 5px 15px;
+    margin-top: 15px;
+
+}
+.text{
+   
+    padding-left: 5px;
+    
+}
+#cart{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#right{
+    padding-right: 128px;
+}
+
+#left{
+    margin-right: 10px;
+}
